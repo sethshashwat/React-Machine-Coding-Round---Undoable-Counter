@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+
+.user-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  height: 40px;
+  width: 100px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin: 10px;
+  color: #fff;
+  background-color: purple;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.history {
+  height: 300px;
+  width: 300px;
+  margin: 100px auto;
+  border: 1px solid black;
+  overflow-y: auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px;
+  font-size: 20px;
+}
